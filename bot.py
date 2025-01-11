@@ -1,8 +1,6 @@
 #(©)Codexbotz
 import pyrogram.utils
 
-pyrogram.utils.MIN_CHANNEL_ID = -1001968267182
-pyrogram.utils.MIN_CHANNEL_ID = -1002321045467
 from aiohttp import web
 from plugins import web_server
 
@@ -11,6 +9,9 @@ from pyrogram import Client
 from pyrogram.enums import ParseMode
 import sys
 from datetime import datetime
+
+pyrogram.utils.MIN_CHANNEL_ID = -1001968267182
+pyrogram.utils.MIN_CHANNEL_ID = -1002321045467
 
 from config import API_HASH, APP_ID, LOGGER, TG_BOT_TOKEN, TG_BOT_WORKERS, FORCE_SUB_CHANNEL, CHANNEL_ID, PORT
 
