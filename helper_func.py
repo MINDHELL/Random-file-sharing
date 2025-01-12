@@ -116,8 +116,5 @@ async def delete_file(messages, client, process):
             print(f"The attempt to delete the media {msg.id} was unsuccessful: {e}")
 
     await process.edit_text(AUTO_DEL_SUCCESS_MSG)
-        except Exception as e:
-print(f"Error deleting message {message_id} in chat {chat_id}: {e}")
-
 
 subscribed = filters.create(is_subscribed)
