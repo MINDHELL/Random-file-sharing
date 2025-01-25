@@ -8,19 +8,19 @@ from logging.handlers import RotatingFileHandler
 load_dotenv()
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7669473217:AAFFhjr0mQ0i1Q7j3CAGjq1azodcG0EdYPE")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8176934534:AAHOXsiVYUchZPl73kPNuTnm7sMg2F0pTSI")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "21187550"))
+APP_ID = int(os.environ.get("APP_ID", "27788368"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "640e8c81851bdedb930cb71a350a351a")
+API_HASH = os.environ.get("API_HASH", "9df7e9ef3d7e4145270045e5e43e1081")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002466275531"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002295794847"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "8027481118"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7568970591"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -39,8 +39,8 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_PIC = os.environ.get("START_PIC","https://envs.sh/vD5.jpg")
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\n𝘐 𝘈𝘔 𝘊𝘖𝘕𝘛𝘌𝘕𝘛 𝘗𝘙𝘖𝘝𝘐𝘋𝘌𝘙 𝘉𝘖𝘛 😌 .\n𝘐 𝘞𝘐𝘓𝘓 𝘗𝘙𝘖𝘝𝘐𝘋𝘌  𝘉𝘌𝘚𝘛 𝘖𝘍 𝘊𝘖𝘕𝘛𝘌𝘕𝘛 𝘍𝘖𝘙 𝘠𝘖𝘜 ⚡️ .")
 try:
-    ADMINS=[8027481118]
-    for x in (os.environ.get("ADMINS", "8027481118").split()):
+    ADMINS=[6860316927]
+    for x in (os.environ.get("ADMINS", "6860316927").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -66,7 +66,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages. join @allvidsbackup1 !"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(5803610610)
+ADMINS.append(6860316927)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
