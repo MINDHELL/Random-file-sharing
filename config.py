@@ -8,7 +8,7 @@ from logging.handlers import RotatingFileHandler
 load_dotenv()
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8176934534:AAHOXsiVYUchZPl73kPNuTnm7sMg2F0pTSI")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN","7692429836:AAHyUFP6os1A3Hirisl5TV1O5kArGAlAEuQ")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "27788368"))
@@ -17,7 +17,7 @@ APP_ID = int(os.environ.get("APP_ID", "27788368"))
 API_HASH = os.environ.get("API_HASH", "9df7e9ef3d7e4145270045e5e43e1081")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002295794847"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002465297334"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "7568970591"))
@@ -27,7 +27,7 @@ PORT = os.environ.get("PORT", "8080")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://aarshhub:6L1PAPikOnAIHIRA@cluster0.6shiu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "AdultDatabase")
+DB_NAME = os.environ.get("DATABASE_NAME", "Log")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
